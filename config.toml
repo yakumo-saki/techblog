@@ -1,0 +1,5 @@
+# Hugo
+baseURL = "https://blog.nerves-concord.io/"
+languageCode = "ja-jp"
+title = "八雲技術帳"
+theme = "hugo-clarity"
