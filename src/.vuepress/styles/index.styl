@@ -1,0 +1,54 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ * $base-font-size: 17px !default;
+ */
+
+// フォントちっさすぎ
+body
+  font-size: 16px
+
+// コンテンツ幅ちょっと広げる
+@media screen and (min-width: 1200px) {
+  .container {
+      max-width: 1060px;
+  }
+}
+
+// ヘッダ
+#app .v-app-bar {
+    background-color: #043451 !important;
+}
+
+// サイドバーのTwitter とかのアイコン
+#content a, #sidebar a, #drawer a {
+    color: #043451 !important;
+}
+
+// 記事を書いた日付を右寄せに（一覧）
+.v-application .page-summary .d-flex {
+  justify-content: flex-end;
+  margin-bottom: -12px;
+  margin-top: -12px; 
+}
+
+// 記事を書いた日付を右寄せに（個別）
+.v-application .component-page .d-flex {
+  justify-content: flex-end;
+  margin-bottom: -12px;
+  margin-top: -12px; 
+}
+
+
+// 日付を少し左にずらす
+.v-application .page-summary .d-flex .published-at {
+  padding-right: 4px;
+}
+
+.component-page-summary header .metadata {
+  font-size: 1rem !important;
+}
+
+.home .hero img
+  max-width 450px!important

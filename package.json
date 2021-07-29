@@ -1,0 +1,32 @@
+{
+  "name": "blog_tech",
+  "version": "0.0.1",
+  "description": "tech blog",
+  "main": "index.js",
+  "authors": {
+    "name": "Yakumo Saki",
+    "email": "yakumo@ziomatrix.org"
+  },
+  "repository": "/blog_tech",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "gen": "joplin-blog blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/theme-blog": "^2.3.3",
+    "joplin-blog": "^0.4.0",
+    "vuepress": "^1.8.2",
+    "vuepress-theme-blog-vuetify": "^1.6.2",
+    "babel-eslint": "8.2.6",
+    "babel-plugin-component": "1.1.1",
+    "eslint": "5.0.0",
+    "eslint-plugin-vue": "5.2.2",
+    "moment": "2.24.0",
+    "node-sass": "4.12.0",
+    "sass-loader": "7.1.0"
+  },
+  "dependencies": {}
+}
