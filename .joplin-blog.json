@@ -1,9 +1,0 @@
-{
-    "type": "vuepress",
-    "language": "ja",
-    "rootPath": "./src",
-    "joplinProfilePath": "~/.config/joplin-desktop",
-    "token": "93e7511c3c678a3a2e8fd5d85a8c671a1b446f6f4e81e6e8f9fd4bd30623b7789b7c2dd0fa4e50046a790973f8869960c2ac9e7741c5e782dbb7eecff6642296",
-    "port": 41184,
-    "tag": "techblog"
-  }
